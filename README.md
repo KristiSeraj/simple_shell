@@ -1,6 +1,5 @@
 # Simple Shell
 
-<<<<<<< HEAD
 Simple Shell is a project about an UNIX command line interpreter made in C by three awesome programmers.
 
 ## Description
@@ -20,5 +19,3 @@ This **Simple Shell** can:
 - [Arenc Palluqi](https://www.github.com/Arenc10)
 - [Endrit Novaku](https://www.github.com/endritNovaku)
 - [Kristjan Seraj](https://www.github.com/KristiSeraj)
-=======
->>>>>>> bafaef96f54c66124d670910c492b5f63d23ca38
