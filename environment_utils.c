@@ -24,3 +24,21 @@ int _str_n_cmp(char *s1, char *s2, int n)
 	}
 	return (diff);
 }
+/**
+ * _printenv - Function that prints an environment
+ * Return: Void
+ */
+int _printenv(void)
+{
+	char *str = environ[0];
+	int i = 1; /* Hostname printed twice if i is initalized 0 */
+
+	while (str[i] != '\0')
+	{
+		write(1, str, _strlen(str));
+		write(1, "\n", 1);
+		str = environ[i];
+		++i;
+	}
+	return (0);
+}
