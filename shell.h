@@ -4,9 +4,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-#include <sys/wait>
-#include <sys/types>
-#include <stat.h>
+#include <sys/wait.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 /* Global variable for the environment */
 extern char **environ;
 /* String utilites */
