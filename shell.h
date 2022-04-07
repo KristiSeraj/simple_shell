@@ -17,4 +17,5 @@ char *_strdup(char *string);
 int _strcmp(char *s1, char *s2);
 int _str_n_cmp(char *s1, char *s2, int n);
 int _printenv(void);
+char *_getenv(char *name);
 #endif

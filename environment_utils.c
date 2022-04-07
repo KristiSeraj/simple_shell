@@ -8,21 +8,19 @@
  */
 int _str_n_cmp(char *s1, char *s2, int n)
 {
-	int i, diff;
+	char c1;
+	char c2;
 
-	i = 0;
-	while ((s1[i] != '\0' || s2[i] != '\0') && (i <= n))
+	while (n--)
 	{
-		if (s1[i] != s2[i])
-		{
-			diff = s1[i] - s2[i];
-			break;
-		}
-		else
-			diff = 0;
-		i++;
+		c1 = *s1++;
+		c2 = *s2++;
+
+		if (c1 == '\0' || c1 != c2)
+			return (c1 > c2 ? 1 : (c1 < c2 ? -1 : 0));
 	}
-	return (diff);
+
+	return (0);
 }
 /**
  * _printenv - Function that prints an environment
@@ -41,4 +39,21 @@ int _printenv(void)
 		++i;
 	}
 	return (0);
+}
+/**
+ * _getenv - imitation of getenv
+ * @name: env name
+ * Return: found name or NULL
+ */
+char *_getenv(char *name)
+{
+	int len = _strlen(name);
+	int i;
+
+	for (i = 0; environ[i] != NULL; i++)
+	{
+		if (_str_n_cmp(environ[i], name, len) == 0)
+			return (&environ[i][len]);
+	}
+	return (NULL);
 }
