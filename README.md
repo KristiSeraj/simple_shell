@@ -20,4 +20,4 @@ This **Simple Shell** can:
 - [Endrit Novaku](https://www.github.com/endritNovaku)
 - [Kristjan Seraj](https://www.github.com/KristiSeraj)
 
-![Lines of code](https://img.shields.io/tokei/lines/github.com/KristiSeraj/simple_shell)
+![Lines of code](https://img.shields.io/tokei/lines/github.com/KristiSeraj/simple_shell?style=for-the-badge)
