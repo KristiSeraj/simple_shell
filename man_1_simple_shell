@@ -1,7 +1,13 @@
-.TH simple_shell 1 "14 April 2022" "version 1.1"
+.TH simple_shell 1 "April 2022" "version 1.1"
 .SH NAME
-simple_shell - command interpreter (shell)
+.B simple_shell
+- command interpreter (shell)
 .SH SYNOPSIS
+.B simple_shell 
+[command] [options]
 .SH DESCRIPTION
-simple_shell - is an UNIX command line interpreter made in C.
-This shell can display a prompt and wait for the user to type a command. The prompt is displayed again each time a command has been executed.
+.B Simple_shell
+is an UNIX command line interpreter made in C.
+This shell can display a prompt and wait for the user to type a command. The prompt is displayed again each time a command has been executed. Simple_shell also works in interactive mode and non-interactive mode.
+.SH AUTHORS
+Kristjan Seraj, Endrit Novaku and Arenc Palluqi
