@@ -1,6 +1,7 @@
-# Simple Shell ![Lines of code](https://img.shields.io/tokei/lines/github.com/KristiSeraj/simple_shell?style=for-the-badge)
+# Simple Shell 
 
 Simple Shell is a project about an UNIX command line interpreter made in C by three awesome programmers.
+![Lines of code](https://img.shields.io/tokei/lines/github.com/KristiSeraj/simple_shell?style=for-the-badge)
 
 ## Description
 
