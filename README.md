@@ -14,10 +14,12 @@ This **Simple Shell** can:
 - Handles errors.
 - Handles the "end of file" condition (`Cltr+D`)
 
-## Compiling
+**Compiling**
 
-`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c hsh`
-
+```c
+gcc -Wall -Wextra -Werror -pedantic -std=gnu89 *.c hsh
+./hsh
+```
 ## Authors
 
 - [Arenc Palluqi](https://www.github.com/Arenc10)
