@@ -19,3 +19,5 @@ This **Simple Shell** can:
 - [Arenc Palluqi](https://www.github.com/Arenc10)
 - [Endrit Novaku](https://www.github.com/endritNovaku)
 - [Kristjan Seraj](https://www.github.com/KristiSeraj)
+
+![Lines of code](https://img.shields.io/tokei/lines/github.com/KristiSeraj/simple_shell)
