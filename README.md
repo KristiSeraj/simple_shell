@@ -1,10 +1,8 @@
-# Simple Shell
+# Simple Shell ![Lines of code](https://img.shields.io/tokei/lines/github.com/KristiSeraj/simple_shell?style=for-the-badge)
 
 Simple Shell is a project about an UNIX command line interpreter made in C by three awesome programmers.
 
 ## Description
-
-Usage: `simple_shell`
 
 This **Simple Shell** can:
 
@@ -26,4 +24,3 @@ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 *.c hsh
 - [Endrit Novaku](https://www.github.com/endritNovaku)
 - [Kristjan Seraj](https://www.github.com/KristiSeraj)
 
-![Lines of code](https://img.shields.io/tokei/lines/github.com/KristiSeraj/simple_shell?style=for-the-badge)
