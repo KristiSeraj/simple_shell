@@ -26,7 +26,7 @@ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 *.c hsh
 ./hsh
 ```
 
-##Code Structure
+## Code Structure
 
 - [string_utils.c](https://github.com/KristiSeraj/simple_shell/blob/main/string_utils.c) - provides an implementation of fundamental string functionalities such as :
 	- `int _strlen(char *string)` - Finds the length of `string`
