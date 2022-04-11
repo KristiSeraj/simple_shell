@@ -29,7 +29,7 @@ int _str_n_cmp(char *s1, char *s2, int n)
 int _printenv(void)
 {
 	char *str = environ[0];
-	int i = 1; /* Hostname printed twice if i is initalized 0 */
+	int i = 0; /* Hostname printed twice if i is initalized 0 */
 
 	while (str[i] != '\0')
 	{
