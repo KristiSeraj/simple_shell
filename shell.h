@@ -21,4 +21,5 @@ int _printenv(void);
 char *_getenv(char *name);
 /* command path */
 char *command_path(char *cmd);
+int execute(char *cmd_array[]);
 #endif
