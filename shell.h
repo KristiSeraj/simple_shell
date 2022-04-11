@@ -19,4 +19,6 @@ int _str_n_cmp(char *s1, char *s2, int n);
 /* Environment utilities */
 int _printenv(void);
 char *_getenv(char *name);
+/* command path */
+char *command_path(char *cmd);
 #endif
