@@ -16,8 +16,29 @@ $
 ```
 - The prompt is displayed again each time a command has been executed.
 - If an executable cannot be found, prints an error message and displays the prompt again.
+```shell
+./hsh
+$ hello
+hello: Not found
+$ 
+```
 - Handles errors.
 - Handles the "end of file" condition (`Ctrl+D`)
+
+Also works in interactive and non-interactive mode:
+- interactive
+```shell
+./hsh
+$ /bin/ls
+AUTHORS README.md command_path.c shell.c shell.h
+$
+```
+- non-interactive mode
+```shell
+$ echo "/bin/ls" | ./hsh
+AUTHORS README.md command_path.c shell.c shell.h
+$
+```
 
 **Compiling**
 
