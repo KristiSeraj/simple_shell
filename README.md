@@ -1,6 +1,7 @@
 # Simple Shell 
 
 Simple Shell is project written using the C-programming language with the object of creating a basic version of a Unix shell able to intepret and execute commands provided by the use.
+
 ![Lines of code](https://img.shields.io/tokei/lines/github.com/KristiSeraj/simple_shell?style=for-the-badge)
 
 ## Description
