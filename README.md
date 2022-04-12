@@ -1,6 +1,6 @@
 # Simple Shell 
 
-Simple Shell is a project about an UNIX command line interpreter made in C by three awesome programmers.
+Simple Shell is project written using the C-programming language with the object of creating a basic version of a Unix shell able to intepret and execute commands provided by the use.
 ![Lines of code](https://img.shields.io/tokei/lines/github.com/KristiSeraj/simple_shell?style=for-the-badge)
 
 ## Description
@@ -42,12 +42,15 @@ $
 
 **Compiling**
 
-```c
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 *.c hsh
-./hsh
-```
+The code can be compiled using **gcc** with additional attributes as follows. It produces an executable file named **hsh**.
 
 ## Code Structure
+
+To develop the simple shell, we have built fundamental functionalities that allow to read a command provided by the user, process it, and execute it by referencing the respective Unix system call. To achieve such functionalities, as described in the figure below, our code relies on key functionalities related to 
+- 1. manipulating string files 
+- 2. accessing and displaying environment variables
+- 3. accessing the full path of any Unix shell command
+- 4. reading and executing any shell command.
 
 - [string_utils.c](https://github.com/KristiSeraj/simple_shell/blob/main/string_utils.c) - provides an implementation of fundamental string functionalities such as :
 	- `int _strlen(char *string)` - Finds the length of `string`
@@ -64,6 +67,9 @@ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 *.c hsh
 	- `int command_read(char *s, size_t __attribute__((unused)) characters)` - Function that reads the `command` provided by `command_path()`
 	- `int execute(char *cmd_array[])` - Function that takes an `command` and executes it
 	- `int main(int __attribute__((unused)) argc, char *argv[])` - Entry point that executes every previously mentioned function
+
+Feel free to use the code developed for the simple shell and get back to us with discussions on how to further improve it.
+
 ## Authors
 
 - [Arenc Palluqi](https://www.github.com/Arenc10)
