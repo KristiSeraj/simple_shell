@@ -48,10 +48,12 @@ The code can be compiled using **gcc** with additional attributes as follows. It
 ## Code Structure
 
 To develop the simple shell, we have built fundamental functionalities that allow to read a command provided by the user, process it, and execute it by referencing the respective Unix system call. To achieve such functionalities, as described in the figure below, our code relies on key functionalities related to 
-- 1. manipulating string files 
-- 2. accessing and displaying environment variables
-- 3. accessing the full path of any Unix shell command
-- 4. reading and executing any shell command.
+1. manipulating string files 
+2. accessing and displaying environment variables
+3. accessing the full path of any Unix shell command
+4. reading and executing any shell command.
+
+![Scheme](https://github.com/KristiSeraj/simple_shell/blob/main/scheme.png)
 
 - [string_utils.c](https://github.com/KristiSeraj/simple_shell/blob/main/string_utils.c) - provides an implementation of fundamental string functionalities such as :
 	- `int _strlen(char *string)` - Finds the length of `string`
