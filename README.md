@@ -61,7 +61,7 @@ To develop the simple shell, we have built fundamental functionalities that allo
 	- `char *_strcpy(char *dest, char *src)` - Copies the content of `src` to `dest`
 	- `char *_strdup(char *string)` - Duplicates a `string`
 	- `int _strcmp(char *s1, char *s2)` - Compares `s1` with `s2`
-	- `int _str_n_cmp(char *s1, char *s2, int n)` - Compares `s1` with `s2` regardin `n` bytes
+	- `int _str_n_cmp(char *s1, char *s2, int n)` - Compares `s1` with `s2` regarding `n` bytes
 - [environment_utils.c](https://github.com/KristiSeraj/simple_shell/blob/main/environment_utils.c) - provides an implementation of key functionalities such as :
 	- `char *_getenv(char *name)` - Function that searches for the environment `name`
 	- `int _prinenv(void)` - Function that prints the environment `name`
