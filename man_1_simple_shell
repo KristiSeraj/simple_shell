@@ -3,20 +3,52 @@
 .B simple_shell
 - command interpreter (shell)
 .SH SYNOPSIS
-.B simple_shell 
+.B simple_shell
 [command] [options]
 .SH DESCRIPTION
 .B Simple_shell
-is an UNIX command line interpreter made in C.
-This shell can display a prompt and wait for the user to type a command. The prompt is displayed again each time a command has been executed. Simple_Shell only accepts built-in commands that are located in /usr/bin/ directory. The user can exit the Simple_Shell by using exit command.
+is a project written using the C-programming language with the object of creating a basic version of a Unix shell able to intepret and execute commands provided by the use. The simple_shell reads lines from either a file or the terminal, interprets them, and generally executes other commands.
 .SH INVOCATION
-Simple Shell  is  executed interactively, and the prompt is displayed. Also non-interactively option can be executed.
-.SH OVERVIEW
-The Simple_shell is a command that reads lines from either a file or the terminal, interprets them, and generally exe‐
-cutes other commands. It is the program that is running when a user logs into the system.It incorporates many features to aid interactive use and has the advantage that the interpretative language is common to both interactive and non-interactive use (shell scripts).
-That is, commands can be typed directly to the running shell or can be put into a file and the file can be exe‐
-cuted directly by the shell.
+It has the advantage to be executed interactivly and non-interactivly. That is, commands can be typed directly to the running shell or can be put into a file and the file can be executed directly by the shell.
+
+.B Interactive mode:
+
+vargrant$ ./hsh
+
+$ /bin/ls
+
+AUTHORS README.md command_path.c shell.c shell.h
+
+$
+
+.B Non-interactive mode:
+
+vagrant$ echo "/bin/ls" | ./hsh
+
+AUTHORS README.md command_path.c shell.c shell.h
+
+$
+.SH COMMANDS
+The simple_shell accepts commands located in /usr/bin directory. When a user types an invalid command, an error message is printed.
+
+vagrant$ ./hsh
+
+$ hello
+
+hello: Not found
+
+$
+
+Some of this commands are:
+
+ls - list directories and files
+
+mkdir - create a new directory
+
+pwd - print working directory
+
+It also accepts the builtin commands (exit and env).
 .SH BUGS
-- No known bugs.
+Submit bug report 4477@holbertonschool.com, 4476@holbertonschool.com or 4475@holbertonschool.com
 .SH AUTHORS
 Kristjan Seraj, Endrit Novaku and Arenc Palluqi
