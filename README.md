@@ -27,7 +27,7 @@ $
 - Handles the "end of file" condition (`Ctrl+D`)
 
 Also works in interactive and non-interactive mode:
-- interactive
+- interactive mode
 ```shell
 ./hsh
 $ /bin/ls
